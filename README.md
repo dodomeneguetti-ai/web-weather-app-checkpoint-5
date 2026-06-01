@@ -4,6 +4,8 @@ O Web Weather App é uma aplicação web dinâmica desenvolvida como projeto de 
 
 O projeto consolida conceitos fundamentais de desenvolvimento Full-Stack, como o consumo de APIs REST, manipulação de rotas dinâmicas, tratamento de exceções e renderização reativa no front-end.
 
+Documentação da API acesse: https://openweathermap.org/api/one-call-4?collection=one_call_api
+
 ---
 
 ## 🚀 Funcionalidades
@@ -50,7 +52,9 @@ git clone https://github.com/seu-usuario/web-weather-app.git
 cd web-weather-app
 
 # Crie e ative o ambiente virtual (venv)
+```
 python -m venv venv
+```
 ```
 source venv/bin/activate  # No Linux/macOS
 ```
@@ -60,7 +64,13 @@ venv\Scripts\activate # No Windows
 ```
 
 ### 2. Instalar as Dependências
+```
 pip install flask requests
+```
+ou caso tenha o arquivo requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ### 3. Configurar a Chave da API
 1. Acesse o site oficial do OpenWeatherMap e crie uma conta gratuita.
