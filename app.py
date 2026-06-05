@@ -3,7 +3,6 @@ import requests
 
 app = Flask(__name__)
 
-# Chave da API configurada corretamente do OpenWeatherMap
 API_KEY = "27e4142dae5e130660eaea32b9f5907b" 
 
 @app.route("/", methods=["GET", "POST"])
